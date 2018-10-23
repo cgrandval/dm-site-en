@@ -1,0 +1,13 @@
+.card.card-just-text .card-body {
+    padding: 50px 60px;
+    text-align: center;
+}
+.card[data-color="green"] {
+    background: #56BD15;
+}
+.card[data-color="green-darker"] {
+    background: #1AB314;
+}
+.card[data-color="green-lighter"] {
+    background: #81A61B;
+}
