@@ -11,3 +11,11 @@
 .card[data-color="green-lighter"] {
     background: #81A61B;
 }
+
+.section .description {
+    color: inherit;
+}
+
+.section-dark .description {
+    color: #9A9A9A;
+}
