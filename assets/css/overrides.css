@@ -12,10 +12,23 @@
     background: #81A61B;
 }
 
+.card img {
+    max-width: 100%;
+    height: 250px;
+}
+
 .section .description {
     color: inherit;
 }
 
 .section-dark .description {
     color: #9A9A9A;
+}
+
+#evenements .card.card-plain .card-body {
+    margin-top: -34px;
+}
+
+#php_usergroups .card.card-plain .card-body {
+    margin-top: -34px;
 }
