@@ -139,6 +139,10 @@
     transition: background 2s ease;
 }
 
+.pat1-header-mobile {
+    visibility: hidden;
+}
+
 @media (min-device-width: 320px) and (max-device-width: 700px) {
     .timeline {
         display: block;
@@ -170,6 +174,14 @@
     .pat-ul > li, .pat2-p, .pat1-p > h3 {
         text-shadow: 1px 1px 6px #000;
         color: #fff;
+    }
+
+    .pat1-header-mobile {
+        visibility: visible;
+    }
+
+    .pat1-header-desktop {
+        visibility: hidden;
     }
 }
 
