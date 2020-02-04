@@ -1,3 +1,8 @@
+@media screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-item .btn i {
+        color: #9A9A9A;
+    }
+}
 .card.card-just-text .card-body {
     padding: 50px 60px;
     text-align: center;
